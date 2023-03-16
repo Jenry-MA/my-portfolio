@@ -99,7 +99,9 @@ const HisstoryTimeLine = (): JSX.Element => {
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Aplication web and mobile for a service of taxis, food delivery, package, freight.
+                <p>Using ReactJs, React Native, Cloud Functions, Firebase.</p> 
             </p>
+
           </div>
         </li>
       </ol>
