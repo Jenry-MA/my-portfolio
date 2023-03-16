@@ -1,10 +1,15 @@
-const Programming = (): JSX.Element => {
+interface Props {
+  className?: string;
+}
+
+const Programming = ({className}:Props): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
       width="786.82"
       height="572.258"
+      className={className}
     >
       <circle cx="458.321" cy="74.182" r="26.701" fill="#f2f2f2" />
       <path
