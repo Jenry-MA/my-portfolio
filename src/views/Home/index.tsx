@@ -49,7 +49,7 @@ const Home = (): JSX.Element => {
             }}
             className="font-mono text-2xl lg:text-3xl xl:text-4xl text-center md:text-left text-ternary-dark dark:text-primary-light uppercase"
           >
-            Hi, I'm <strong> Jenry Mazariegos</strong>
+            Hola, soy <strong> Jenry Mazariegos</strong>
           </motion.h1>
           <motion.div
             initial={{ opacity: 0 }}
@@ -61,8 +61,7 @@ const Home = (): JSX.Element => {
             }}
             className="font-mono  md:w-3/4 w-full mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl leading-normal text-center md:text-left  text-gray-500 dark:text-gray-200"
           >
-            Web and mobile developer, passionate about technology and
-            programming.
+            Desarrollador web and movil, apasionado por la tecnologia y programacion.
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -83,7 +82,7 @@ const Home = (): JSX.Element => {
             >
               <FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
               <span className="font-mono text-sm sm:text-lg font-general-medium duration-100">
-                Download CV
+                Descargar CV
               </span>
             </button>
           </motion.div>

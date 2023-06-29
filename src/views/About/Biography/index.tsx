@@ -10,7 +10,7 @@ const Biography = ():JSX.Element => {
 
       <div className="text-justify font-mono font-general-regular w-full sm:w-3/4">
         {aboutMe.map((data, i) => (
-          <biography-text key={i}>{data}</biography-text>
+          <div className="block mb-4 text-ternary-dark dark:text-ternary-light text-lg" key={i}>{data}</div>
         ))}
       </div>
     </div>

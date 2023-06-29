@@ -42,7 +42,7 @@ const Footer = () => {
         {/* Footer social links */}
         <div className="font-mono font-general-regular flex flex-col items-center mb-0 sm:mb-0">
             <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-0">
-                My social media
+                Mis redes
             </p>
             <ul className="flex gap-4 sm:gap-8">
                 {socialLinks.map((link:SocialLink) => (
