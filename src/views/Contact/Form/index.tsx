@@ -3,10 +3,14 @@ import emailjs from "@emailjs/browser";
 import { LuMapPin, LuPhone, LuMail, LuUser } from "react-icons/lu";
 import { useForm, SubmitHandler } from "react-hook-form"
 
-interface bodyJson {
-    full_name: string
-    user_mail: string
-    body_message: string
+// interface bodyJson {
+//     full_name: string
+//     user_mail: string
+//     body_message: string
+// }
+
+type bodyJson = {
+  [key:string]: unknown
 }
 
 const index = () => {
