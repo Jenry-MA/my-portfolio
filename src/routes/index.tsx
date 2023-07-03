@@ -6,6 +6,7 @@ import {
 import MainPage from "../views/MainPage";
 import Home from "../views/Home";
 import About from "../views/About";
+import Contact from "../views/Contact"
 
   const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ import About from "../views/About";
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/contact_me",
+          element: <Contact />,
         },
       ],
     },

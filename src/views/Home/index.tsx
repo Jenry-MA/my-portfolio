@@ -1,7 +1,7 @@
 import useThemeSwitcher from "../../helpers/customHooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { Devjm, Programming } from "../../utils/SVGComponents";
+import { Programming } from "../../utils/SVGComponents";
 import { programming } from "../../assets/images";
 import { resume } from "../../assets/docs";
 
